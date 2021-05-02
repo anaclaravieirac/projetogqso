@@ -5,6 +5,8 @@ public class Banco {
         this.saldo = 0;
     }
     public boolean deposito(double valor){
+        if(valor <=0 )
+            return false;
         this.saldo += valor;
         return true;
     }

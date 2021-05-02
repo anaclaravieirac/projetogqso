@@ -11,8 +11,11 @@ public class Banco {
         return true;
     }
     public boolean saque(double valor){
-        this.saldo -= valor;
-        return true;
+        if(valor < saldo || valor == 0) {
+            return false;
+        }
+            this.saldo -= valor;
+            return true;
     }
     public double saldo(){
         return this.saldo;

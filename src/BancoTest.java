@@ -10,7 +10,7 @@ class BancoTest {
     }
     @Test
     void saque() {
-
+        assertEquals(false, bd.saque(0));
     }
     @Test
     void saldo() {

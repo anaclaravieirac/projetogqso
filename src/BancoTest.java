@@ -1,17 +1,19 @@
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BancoTest {
+
     @Test
-    void deposito(){
+    void deposito() {
 
     }
     @Test
-    void saque(){
+    void saque() {
 
     }
     @Test
-    void saldo(){
+    void saldo() {
 
     }
 }
